@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="script/controller/addCtrl.js"></script>
+    <script src="script/controller/viewCtrl.js"></script>
+</head>
+<body ng-app="myApp">
+<h1>Jspiders Students</h1>
+<a href="#!/add">AddNew Students</a>
+<a href="#!/view">viewStudents</a>
+
+<div ng-view=""></div>
+</body>
+</html>
